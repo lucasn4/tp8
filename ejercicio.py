@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
-# url = 'https://lucasn4-lab4-c7-tp8-ejercicio-rribb1.streamlit.app/'
+# url = 'https://tp8-59044.streamlit.app/'
 
 def formato_color(valor):
     if valor > 0:
