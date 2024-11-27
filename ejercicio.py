@@ -19,6 +19,7 @@ def mostrar_grafico_producto(df, producto, sucursal):
     ax.set_title(f'Evolución ventas mensual', fontsize=14)
     ax.set_xlabel('Año-Mes', fontsize=12)
     ax.set_ylabel('Unidades Vendidas', fontsize=10)
+
     etiquetasX = [
     str(año) if mes in [1] else ''
     for año, mes in zip(data['Año'], data['Mes'])]
